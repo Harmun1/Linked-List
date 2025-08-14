@@ -1,6 +1,5 @@
 # Author: Harmun Sandhu
 # GitHub username: Harmun1
-# Date: 05/15/2024
 # Description: Class with recursive implementations to add, remove, check if value is in list, insert, and reverse methods.
 
 class Node:
@@ -110,4 +109,5 @@ class LinkedList:
         """Converts the linked list"""
         result_list = []
         self.recur_to_plain_list(self._head, result_list)
+
         return result_list
